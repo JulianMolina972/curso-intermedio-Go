@@ -17,12 +17,11 @@ class Employee {
     public setId(id: number): void {
         this.id = id;
     }
-  
 }
-  
-  const employee = new Employee();
-  employee.setId(1);
-  employee.setName('Name');
-  
-  console.log(employee.getId());
-  console.log(employee.getName());
+
+const employee = new Employee();
+employee.setId(1);
+employee.setName('Name');
+
+console.log(employee.getId());
+console.log(employee.getName());
